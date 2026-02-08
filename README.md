@@ -1,6 +1,6 @@
 # 👗 Smart Wardrobe AI
 
-Smart Wardrobe AI is a next-generation digital closet assistant built with **Flutter** and powered by **Google Gemini 1.5 Flash**. It helps users organize their clothing collections and provides intelligent outfit recommendations by analyzing real-time local weather, user mood, and travel methods.
+Smart Wardrobe AI is a next-generation digital closet assistant built with **Flutter** and powered by **Google Gemini 2.5 Flash**. It helps users organize their clothing collections and provides intelligent outfit recommendations by analyzing real-time local weather, user mood, and travel methods.
 
 
 
