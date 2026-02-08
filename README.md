@@ -25,7 +25,7 @@ Smart Wardrobe AI is a next-generation digital closet assistant built with **Flu
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/gunnerforever/smart-wardrobe-ai.git](https://github.com/YOUR_USERNAME/smart-wardrobe-ai.git)
+    git clone https://github.com/gunnerforever/smart-wardrobe-ai.git
     cd smart-wardrobe-ai
     ```
 
