@@ -12,8 +12,6 @@ Smart Wardrobe AI is a next-generation digital closet assistant built with **Flu
     -   **Live Weather:** Fetches your local temperature via OpenWeather API.
     -   **Manual Overwrite:** Includes an interactive temperature slider that overrides GPS data when touched.
     -   **Contextual Logic:** Adjusts for mood (Happy, Professional, etc.) and travel (Walking, Cycling, Driving).
--   **Visual Feedback Loop:** Don't like a suggestion? Chat with the AI to refine the look (e.g., "It's too cold for this" or "I want a different color").
--   **Security First:** Uses `envied` for API key obfuscation and protection.
 
 ## 🚀 Getting Started
 
@@ -26,7 +24,7 @@ Smart Wardrobe AI is a next-generation digital closet assistant built with **Flu
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/smart-wardrobe-ai.git](https://github.com/YOUR_USERNAME/smart-wardrobe-ai.git)
+    git clone [https://github.com/gunnerforever/smart-wardrobe-ai.git](https://github.com/YOUR_USERNAME/smart-wardrobe-ai.git)
     cd smart-wardrobe-ai
     ```
 
