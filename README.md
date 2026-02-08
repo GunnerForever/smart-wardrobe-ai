@@ -19,6 +19,7 @@ Smart Wardrobe AI is a next-generation digital closet assistant built with **Flu
 * [Flutter SDK](https://docs.flutter.dev/get-started/install) (Stable channel)
 * [Google AI Studio API Key](https://aistudio.google.com/) (for Gemini)
 * [OpenWeatherMap API Key](https://openweathermap.org/api)
+* Flutter dependencies/packages as shown in pubspec.yaml
 
 ### Installation
 
@@ -38,7 +39,7 @@ Smart Wardrobe AI is a next-generation digital closet assistant built with **Flu
 3.  **Generate Obfuscated Keys:**
     This project uses `envied` to protect your keys. Run the generator:
     ```bash
-    dart run build_runner build --delete-conflicting-outputs
+    flutter pub run build_runner build --delete-conflicting-outputs
     ```
 
 4.  **Run the App:**
