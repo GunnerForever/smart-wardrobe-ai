@@ -44,7 +44,7 @@ Smart Wardrobe AI is a next-generation digital closet assistant built with **Flu
 
 4.  **Run the App:**
     ```bash
-    flutter run
+    flutter run -d windows
     ```
 
 ## 🛠️ Build for Windows
