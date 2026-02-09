@@ -134,7 +134,7 @@ class _HomePageState extends State<HomePage> {
     setState(() => _isLoading = true);
 
     try {
-      final model = GenerativeModel(model: "gemini-2.5-flash", apiKey: _geminiApiKey);
+      final model = GenerativeModel(model: "gemini-3-flash-preview", apiKey: _geminiApiKey);
       final imageBytes = await image.readAsBytes();
       
       final prompt = TextPart("Analyze the clothing. Return exactly 4 words comma separated: Type, Color, Style, Folder. "
@@ -166,7 +166,7 @@ class _HomePageState extends State<HomePage> {
     if (_wardrobe.isEmpty) return _showError("Wardrobe is empty!");
     setState(() => _isLoading = true);
     try {
-      final model = GenerativeModel(model: "gemini-2.5-flash", apiKey: _geminiApiKey);
+      final model = GenerativeModel(model: "gemini-3-flash-preview", apiKey: _geminiApiKey);
       
       String wardrobeData = _wardrobe.map((i) => "ID:${_wardrobe.indexOf(i)} - ${i['color']} ${i['type']}").join(", ");
       
